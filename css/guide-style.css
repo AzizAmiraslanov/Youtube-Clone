@@ -1,0 +1,503 @@
+.guide {
+    width: 240px;
+    height: 100%;
+    overflow: scroll;
+    background-color: #ffffff;
+  }
+  
+  .hr {
+    width: 100%;
+    height: 1px;
+    background-color: #83838330;
+  
+  }
+  
+  .sections {
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .item {
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Section Main Code Area Start in the Here */
+  .section-main {
+    width: 100%;
+    padding: 12px 0;
+  }
+  
+  .section-main-item {
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-main-item-icon {
+    margin-right: 24px;
+  }
+  
+  
+  .section-main-item-icon .fa-home {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .section-main-item-name {
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-main-item-name span {
+    font-size: 14px;
+  }
+  
+  .section-main-item:hover {
+    background-color: rgba(226, 226, 226, 0.37);
+    cursor: pointer;
+  }
+  
+  
+  .active {
+    background-color: rgba(209, 209, 209, 0.842);
+  }
+  
+  .active span {
+    color: black;
+    font-weight: 900;
+  }
+  
+  
+  
+  /* Section Main Code Area End of the Here */
+  
+  /* Section Lib code Area Start in the Here */
+  
+  .section-lib {
+    width: 100%;
+    padding: 12px 0;
+  }
+  
+  .section-lib-item {
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-lib-item-icon {
+    margin-right: 24px;
+  }
+  
+  
+  .section-lib-item-icon .fa-home {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .section-lib-item-name {
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-lib-item-name span {
+    font-size: 14px;
+  }
+  
+  .section-lib-item:hover {
+    background-color: rgba(226, 226, 226, 0.37);
+    cursor: pointer;
+  }
+  
+  /* Section Lib code Area End of the Here */
+  
+  
+  /* User Input Code Area Start In the Here */
+  .user-input {
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .user-input-header {
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-input-header span {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.2rem;
+    font-weight: 400;
+  }
+  
+  .user-input-btn {
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  button#user-input {
+    padding: 5px 15px;
+    width: 110px;
+    background-color: transparent;
+    border: 1px solid #c4c4c4;
+    color: #3378DB;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    border-radius: 50px;
+  }
+  
+  button#user-input:hover {
+    cursor: pointer;
+  }
+  
+  button#user-input span:first-child {
+    margin-right: 10px;
+  }
+  /* User Input Code Area End of the Here */
+  
+  /* Discover Section Code Area Start in the Here */
+  .section-discover {
+    width: 100%;
+    padding: 12px 0;
+  }
+  
+  .discover-header {
+    color: grey;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .discover-content {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .discover-item {
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .discover-item-name {
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .discover-item-name span {
+    font-size: 14px;
+  }
+  
+  .discover-item:hover {
+    background-color: rgba(226, 226, 226, 0.37);
+    cursor: pointer;
+  }
+  
+  .discover-item-icon {
+    margin-right: 24px;
+    background-color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .fa-music {
+    width: 10px;
+    height: 10px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .fa-trophy {
+    width: 10px;
+    height: 10px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .fa-gamepad {
+    width: 10px;
+    height: 10px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .fa-broadcast-tower {
+    width: 10px;
+    height: 10px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .fa-vr-cardboard {
+    width: 10px;
+    height: 10px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  /* Discover Section Code Area End of the Here */
+  
+  
+  /* Add Channel Section Code Area Start in the Here */
+  .add-channel {
+    width: 100%;
+    padding: 12px 0;
+  
+  }
+  
+  .add-channel-content {
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .add-channel-icon {
+    margin-right: 24px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .fa-plus {
+    width: 10px;
+    height: 10px;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  
+  .add-channel-name {
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-channel-name span {
+    font-size: 14px;
+  }
+  
+  .add-channel-content:hover {
+    background-color: rgba(226, 226, 226, 0.37);
+    cursor: pointer;
+  }
+  
+  /* Add Channel Section Code Area End of the Here */
+  
+  
+  
+  
+  
+  /* youtubeMore Section Code Area Start in the Here */
+  .section-youtubeMore {
+    width: 100%;
+    padding: 12px 0;
+  }
+  
+  .youtubeMore-header {
+    color: grey;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .youtubeMore-content {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .youtubeMore-item {
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .youtubeMore-item-name {
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .youtubeMore-item-name span {
+    font-size: 14px;
+  }
+  
+  .youtubeMore-item:hover {
+    background-color: rgba(226, 226, 226, 0.37);
+    cursor: pointer;
+  }
+  
+  .youtubeMore-item-icon {
+    margin-right: 24px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .youtubeMore-item-icon img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  /* youtubeMore Section Code Area End of the Here */
+  
+  
+  /* settings Section Code Area Start in the Here */
+  .section-settings {
+    width: 100%;
+    padding: 12px 0;
+  }
+  
+  .settings-content {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .settings-item {
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .settings-item-name {
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .settings-item-name span {
+    font-size: 14px;
+  }
+  
+  .settings-item:hover {
+    background-color: rgba(226, 226, 226, 0.37);
+    cursor: pointer;
+  }
+  
+  
+  .settings-item-icon {
+    margin-right: 24px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* settings Section Code Area End of the Here */
+  
+  /* infoYoutube Section Code Area Start in the Here */
+  .section-infoYoutube {
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 50px;
+  
+  }
+  
+  .infoYoutube-content {
+    height: 100%;
+    margin-top: 5px;
+  }
+  
+  .infoYoutube-item {
+    width: 100%;
+    padding: 0 26px 0 24px;
+  }
+  
+  
+  .infoYoutube-item-name {
+    height: 100%;
+    margin-top: 10px;
+  
+  }
+  
+  .infoYoutube-item-name span a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(101, 101, 101);
+    font-weight: 500;
+  }
+  
+  #copyright {
+    font-size: 12px;
+    color: rgb(101, 101, 101);
+    font-weight: 100;
+  }
+  
+  /* infoYoutube Section Code Area End of the Here */
+  
+  
+
+  
+  /* header Section ScrollBar code Area Start in the here */
+  /* width */
+  .guide:hover::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+  }
+  
+  /* Track */
+  .guide::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .guide::-webkit-scrollbar-thumb {
+    background: rgb(149, 149, 149);
+    border-radius: 10px;
+    height: 200px;
+  }
+  
+  /* Handle on hover */
+  .guide::-webkit-scrollbar-thumb:hover {
+    background: rgb(101, 101, 101);
+  
+  }
+  
+  .guide::-webkit-scrollbar-corner {
+    background-color: none
+  }
+  
+  /* header Section ScrollBar code Area End of the here */

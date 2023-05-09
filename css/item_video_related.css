@@ -1,0 +1,96 @@
+.related {
+    width: 100%;
+
+}
+
+.related-container {
+    width: 100%;
+}
+
+.related-items {
+    width: 100%;
+}
+
+.related-item {
+    width: 100%;
+    height: 94px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.related-item:hover {
+    cursor: pointer;
+}
+
+.related-item-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.related-item-video {
+    width: 168px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.related-item-video img {
+    width: 100%;
+}
+
+
+.related-item-content {
+    width: 226px;
+    height: 94px;
+}
+
+.related-item-content-container {
+    width: 100%;
+    height: 100%;
+}
+
+.related-item-content-header {
+    width: 100%;
+}
+
+.related-item-content-header span {
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+.related-item-content-channel-name {
+    margin-top: 5px;
+}
+
+.related-item-content-channel-name span {
+    font-size: .9rem;
+    color: grey;
+    font-weight: 400;
+}
+
+.related-item-content-date {
+    display: flex;
+    margin-top: 10px;
+}
+
+.related-item-content-views span {
+    font-size: .8rem;
+    color: grey;
+    font-weight: 400;
+}
+
+.related-item-content-puplish-date {
+    margin-left: 5px;
+}
+
+.related-item-content-puplish-date span {
+    font-size: .8rem;
+    color: grey;
+    font-weight: 400;
+}

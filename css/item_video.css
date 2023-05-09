@@ -1,0 +1,1579 @@
+/* Google Fonts Folder */
+@import url(./google-fonts.css);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 10px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 100;
+  width: 100%;
+  height: 100%;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+/* ************************************************************************************ */
+/* YoutubeApp Code Area Start In the here */
+
+#youtubeApp {
+  width: 100%;
+  height: 100%;
+
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+
+}
+
+.content-container {
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+/* YoutubeApp Code Area End of the here */
+
+
+/* ************************************************************************************ */
+
+/* Header Code Area Start in the Here */
+
+
+
+.head-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: white;
+  z-index: 9;
+
+}
+
+/* Head Left Code Area Start in the Here */
+.left {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  z-index: 111;
+
+}
+
+.bar-icon {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-icon .fa-bars {
+  font-size: 1.4rem !important;
+}
+
+.logo {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#main-logo {
+  width: 90px;
+  height: 50px;
+  display: flex;
+}
+
+#main-logo img {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+#country {
+  width: 20px;
+  height: 40px;
+  margin-left: 5px;
+
+}
+
+#country span {
+  font-size: 0.8rem;
+}
+
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+/* Head Left Code Area End of the Here */
+
+/* *************************************************************************** */
+
+/* Head Center Code Area Start in the Here */
+.center {
+  width: 728px;
+  height: 100%;
+
+}
+
+
+
+.center-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBox {
+  width: 70%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+
+}
+
+.searchBox input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+
+  border-top: 1px solid grey;
+  border-right: none;
+  border-bottom: 1px solid grey;
+  border-left: none;
+}
+
+.searchBox input::placeholder {
+  font-size: 1rem;
+  color: rgb(143, 143, 143);
+}
+
+.searchBox-icon {
+  background-color: rgb(243, 243, 243);
+  width: 70px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid grey;
+  border-right: none;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+.searchBox-icon:focus {
+  border: 10px solid red;
+}
+
+.searchBox-icon span {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.voice-serchBox {
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 1%;
+}
+
+
+
+/* Head Center Code Area End of the Here */
+/* *************************************************************************** */
+
+/* Head Right Code Area Start in the Here */
+
+.right {
+  width: 225px;
+  height: 100%;
+}
+
+.right-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-icon {
+  margin-right: 15px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.right-icon:hover {
+  cursor: pointer;
+}
+
+.right-icon:hover #settings-popup {
+  display: block;
+  z-index: 9;
+}
+
+#settings-popup {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: .7rem;
+  opacity: .6;
+  display: none;
+  position: absolute;
+  top: 65px;
+  left: -10px;
+  border-radius: 3px;
+}
+
+#user-input {
+  padding: 5px 10px;
+  width: 90px;
+  background-color: transparent;
+  border: 1px solid #c4c4c4;
+  font-size: .9rem;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+#user-input a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3378DB;
+
+}
+
+
+#user-input:hover {
+  background-color: #3379db3d;
+  border: 1px solid transparent;
+}
+
+/* Header Code Area End of the Here */
+
+/* ****************************************************************** */
+
+/* Multi menu code area start in the Here */
+.multi-menu {
+  width: 300px;
+  position: fixed;
+  top: 55px;
+  right: 100px;
+  z-index: 9999;
+  background-color: white;
+  box-shadow: 0px 0px 17px 6px #d2d2d2
+}
+
+.multi-menu-container {
+  width: 100%;
+  height: 100%;
+}
+
+.multi-menu-sections {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.multi-menu-page-section {
+  width: 100%;
+  padding: 5px 0;
+
+}
+
+.active-2 {
+  background-color: red;
+
+}
+
+.multi-menu-items section:hover {
+  background-color: rgba(226, 226, 226, 0.37);
+
+  cursor: pointer;
+}
+
+.multi-menu-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.multi-menu-items section {
+  width: 100%;
+  height: 40px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+span.multi-menu-items-icon {
+  width: 24px;
+  height: 24px;
+
+}
+
+span.multi-menu-items-name {
+  font-size: 14px;
+}
+
+/* Multi menu code area End of the Here */
+
+/* ****************************************************************** */
+
+/* Guide Code Area Start in the here */
+
+.guide {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 240px;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  z-index: 9;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  background-color: #83838330;
+
+}
+
+.sections {
+  width: 100%;
+  height: 100%;
+
+}
+
+.item {
+  width: 100%;
+  height: 40px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+/* Section Main Code Area Start in the Here */
+.section-main {
+  width: 100%;
+  padding: 12px 0;
+}
+
+.section-main-item {
+  width: 100%;
+  height: 40px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.section-main-item-icon {
+  margin-right: 24px;
+}
+
+
+.section-main-item-icon .fa-home {
+  width: 24px;
+  height: 24px;
+}
+
+.section-main-item-name {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.section-main-item-name span {
+  font-size: 14px;
+}
+
+.section-main-item:hover {
+  background-color: rgba(226, 226, 226, 0.37);
+  cursor: pointer;
+}
+
+
+.active {
+  background-color: rgba(209, 209, 209, 0.842);
+}
+
+.active span {
+  color: black;
+  font-weight: 900;
+}
+
+
+
+/* Section Main Code Area End of the Here */
+
+/* Section Lib code Area Start in the Here */
+
+.section-lib {
+  width: 100%;
+  padding: 12px 0;
+}
+
+.section-lib-item {
+  width: 100%;
+  height: 40px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.section-lib-item-icon {
+  margin-right: 24px;
+}
+
+
+.section-lib-item-icon .fa-home {
+  width: 24px;
+  height: 24px;
+}
+
+.section-lib-item-name {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.section-lib-item-name span {
+  font-size: 14px;
+}
+
+.section-lib-item:hover {
+  background-color: rgba(226, 226, 226, 0.37);
+  cursor: pointer;
+}
+
+/* Section Lib code Area End of the Here */
+
+
+/* User Input Code Area Start In the Here */
+.user-input {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.user-input-header {
+  width: 100%;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+}
+
+.user-input-header span {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+.user-input-btn {
+  width: 100%;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button#user-input {
+  padding: 5px 15px;
+  width: 110px;
+  background-color: transparent;
+  border: 1px solid #c4c4c4;
+  color: #3378DB;
+  display: flex;
+  align-items: center;
+  font-size: .9rem;
+  border-radius: 50px;
+}
+
+button#user-input:hover {
+  cursor: pointer;
+}
+
+button#user-input span:first-child {
+  margin-right: 10px;
+}
+
+/* User Input Code Area End of the Here */
+
+/* Discover Section Code Area Start in the Here */
+.section-discover {
+  width: 100%;
+  padding: 12px 0;
+}
+
+.discover-header {
+  color: grey;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+}
+
+.discover-content {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.discover-item {
+  width: 100%;
+  height: 40px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.discover-item-name {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.discover-item-name span {
+  font-size: 14px;
+}
+
+.discover-item:hover {
+  background-color: rgba(226, 226, 226, 0.37);
+  cursor: pointer;
+}
+
+.discover-item-icon {
+  margin-right: 24px;
+  background-color: rgb(0, 0, 0);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fa-music {
+  width: 10px;
+  height: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.fa-trophy {
+  width: 10px;
+  height: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.fa-gamepad {
+  width: 10px;
+  height: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.fa-broadcast-tower {
+  width: 10px;
+  height: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.fa-vr-cardboard {
+  width: 10px;
+  height: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+/* Discover Section Code Area End of the Here */
+
+
+/* Add Channel Section Code Area Start in the Here */
+.add-channel {
+  width: 100%;
+  padding: 12px 0;
+
+}
+
+.add-channel-content {
+  width: 100%;
+  height: 40px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+
+}
+
+.add-channel-icon {
+  margin-right: 24px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fa-plus {
+  width: 10px;
+  height: 10px;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.add-channel-name {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.add-channel-name span {
+  font-size: 14px;
+}
+
+.add-channel-content:hover {
+  background-color: rgba(226, 226, 226, 0.37);
+  cursor: pointer;
+}
+
+/* Add Channel Section Code Area End of the Here */
+
+
+
+
+
+/* youtubeMore Section Code Area Start in the Here */
+.section-youtubeMore {
+  width: 100%;
+  padding: 12px 0;
+}
+
+.youtubeMore-header {
+  color: grey;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+}
+
+.youtubeMore-content {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.youtubeMore-item {
+  width: 100%;
+  height: 40px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.youtubeMore-item-name {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.youtubeMore-item-name span {
+  font-size: 14px;
+}
+
+.youtubeMore-item:hover {
+  background-color: rgba(226, 226, 226, 0.37);
+  cursor: pointer;
+}
+
+.youtubeMore-item-icon {
+  margin-right: 24px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.youtubeMore-item-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* youtubeMore Section Code Area End of the Here */
+
+
+/* settings Section Code Area Start in the Here */
+.section-settings {
+  width: 100%;
+  padding: 12px 0;
+}
+
+.settings-content {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.settings-item {
+  width: 100%;
+  height: 40px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.settings-item-name {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.settings-item-name span {
+  font-size: 14px;
+}
+
+.settings-item:hover {
+  background-color: rgba(226, 226, 226, 0.37);
+  cursor: pointer;
+}
+
+
+.settings-item-icon {
+  margin-right: 24px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* settings Section Code Area End of the Here */
+
+/* infoYoutube Section Code Area Start in the Here */
+.section-infoYoutube {
+  width: 100%;
+  padding: 12px 0;
+  margin-bottom: 50px;
+
+}
+
+.infoYoutube-content {
+  height: 100%;
+  margin-top: 5px;
+}
+
+.infoYoutube-item {
+  width: 100%;
+  padding: 0 26px 0 24px;
+}
+
+
+.infoYoutube-item-name {
+  height: 100%;
+  margin-top: 10px;
+
+}
+
+.infoYoutube-item-name span a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(101, 101, 101);
+  font-weight: 500;
+}
+
+#copyright {
+  font-size: 12px;
+  color: rgb(101, 101, 101);
+  font-weight: 100;
+}
+
+/* infoYoutube Section Code Area End of the Here */
+
+
+
+
+/* header Section ScrollBar code Area Start in the here */
+/* width */
+.guide:hover::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+
+/* Track */
+.guide::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.guide::-webkit-scrollbar-thumb {
+  background: rgb(149, 149, 149);
+  border-radius: 10px;
+  height: 200px;
+}
+
+/* Handle on hover */
+.guide::-webkit-scrollbar-thumb:hover {
+  background: rgb(101, 101, 101);
+
+}
+
+.guide::-webkit-scrollbar-corner {
+  background-color: none
+}
+
+/* header Section ScrollBar code Area End of the here */
+
+/* Guide Code Area End of the here */
+/* *************************************************************************** */
+
+
+.videoItemPlay {
+  width: 100%;
+  /* height: 100%; */
+  background-color: #f9f9f9;
+  padding: 25px;
+  position: relative;
+  left: 0;
+  top: 56px;
+  overflow-y: scroll;
+}
+
+.playItemContent {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+
+
+}
+
+.playItemContent .columns {
+  display: grid;
+  grid-template-columns: 2.3fr 1fr;
+  gap: 25px;
+}
+
+
+
+
+.playItemContent .columns .primary-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.player {
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid black; */
+}
+
+.cinematic {
+  width: 100%;
+  height: 100%;
+}
+
+.cinematic-container {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+.player-content {
+  height: 100px;
+  width: 100%;
+}
+
+.player-content-container {
+  width: 100%;
+  height: 100%;
+}
+
+.player-name {
+  width: 100%;
+  height: 50%;
+
+
+
+}
+
+.player-name span {
+  width: 100%;
+  height: 100%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.player-footer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+.player-footer-left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+
+.player-views {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.player-views span {
+  font-size: .8rem;
+  margin-right: 4px;
+  color: grey;
+  font-weight: 400;
+}
+
+
+
+.player-publish-date {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.player-publish-date span {
+  font-size: .8rem;
+  margin-right: 4px;
+  color: grey;
+  font-weight: 400;
+}
+
+.player-footer-right {
+  width: 60%;
+  height: 100%;
+
+}
+
+.player-footer-right-container {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.player-footer-right-container ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+.player-footer-right-container ul button {
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: #e8e8e8;
+}
+
+.player-footer-right-container ul button:hover {
+  background-color: #dadada;
+  cursor: pointer;
+
+
+}
+
+.player-footer-right-container ul button span {
+  font-size: .9rem;
+  font-weight: 900;
+
+}
+
+.player-footer-right-container ul button span.material-symbols-outlined {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-right: 3px;
+
+}
+
+.player-footer-right-container ul button span.material-icons {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-right: 3px;
+
+}
+
+
+
+.player-contents {
+  width: 100%;
+}
+
+.player-contents-container {
+  width: 100%;
+  height: 100%;
+}
+
+.player-content-top {
+  width: 100%;
+  height: 100px;
+}
+
+.player-content-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-inner-left {
+  width: 30%;
+  height: 80%;
+  display: flex;
+}
+
+.player-channel-logo {
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.player-channel-logo img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+
+
+}
+
+.player-channel-info {
+  width: 70%;
+  height: 100%;
+
+}
+
+.player-channel-info-container {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.player-channel-name {
+  display: block;
+}
+
+
+.player-channel-name span {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.player-follower-count {
+  width: 100%;
+}
+
+.player-follower-count span {
+  font-size: .8rem;
+  color: grey;
+  font-weight: 400;
+
+}
+
+
+.content-inner-right {
+  width: 25%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.follow-btn #visible {
+  padding: 10px 20px;
+  background-color: rgb(193, 0, 0);
+  border-radius: 3px;
+
+}
+
+.follow-btn:hover {
+  cursor: pointer;
+}
+
+.follow-btn #hidden {
+  padding: 10px 20px;
+  background-color: rgb(232, 232, 232);
+  border-radius: 3px;
+
+}
+
+
+.follow-btn span#hidden {
+  color: rgb(153, 153, 153);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+.follow-btn span#visible {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+.follow-icon span {
+  font-size: 2rem;
+  margin-left: 20px;
+
+}
+
+.player-content-main {
+  width: 91%;
+  float: right;
+}
+
+.show-content h2 {
+  margin-bottom: 10px;
+
+}
+
+.show-content p,
+.show-content a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+span#showContent {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 400;
+  color: grey;
+}
+
+.show-content span:hover {
+  cursor: pointer;
+}
+
+
+
+.hide-content p {
+  font-size: 1rem;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+span#hideContent {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 400;
+  color: grey;
+}
+
+
+
+/* user-comments Code Area Start in the here */
+
+.user-comments {
+  width: 100%;
+}
+
+.user-comments-container {
+  width: 100%;
+  flex-direction: column;
+}
+
+.write-comments {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.writer-logo {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.writer-logo img {
+  width: 70px;
+}
+
+.enter-comments {
+  width: 92%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.enter-comments input {
+  width: 100%;
+  height: 70%;
+  border: none;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #83838330;
+}
+
+.user-comments-items {
+  width: 100%;
+}
+
+.comments-item-container {
+  display: flex;
+  margin: 30px 0;
+}
+
+.comments-item-user-logo {
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.comments-item-user-logo img {
+  width: 50px;
+  border-radius: 50%;
+
+}
+
+
+.user-comment-main {
+  width: 92%;
+
+}
+
+.comments-item-user-name {
+  display: flex;
+  align-items: center;
+}
+
+.comments-item-user-name span#name {
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+
+.comments-item-user-name span#date {
+  font-size: .8rem;
+  font-weight: 400;
+  margin-left: 10px;
+  color: grey;
+
+}
+
+.user-comment {
+  margin-top: 10px;
+}
+
+.user-comment span {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.comment-toolbar {
+  margin: 20px 0;
+}
+
+.comment-toolbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.like-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.like-toolbar span.material-symbols-outlined {
+  font-size: 1.7rem;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.like-toolbar span.material-symbols-outlined:hover {
+  background-color: #d5d5d5;
+  cursor: pointer;
+}
+
+.like-toolbar span#like-count {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.dislike-toolbar span.material-symbols-outlined {
+  font-size: 1.7rem;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.dislike-toolbar span.material-symbols-outlined:hover {
+  background-color: #d5d5d5;
+  cursor: pointer;
+}
+
+.answer-button {
+  font-size: .9rem;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.answer-button:hover {
+  cursor: pointer;
+  background-color: #d5d5d5;
+}
+
+
+/* user-comments Code Area End of the here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.playItemContent .columns .secondary-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+
+}
+
+.playlist {
+  width: 100%;
+  height: 500px;
+  border: 1px solid rgb(194, 194, 194);
+
+}
+
+.playlist-container {
+  width: 100%;
+  height: 100%;
+}
+
+.playlist-header {
+  width: 100%;
+  height: 10%;
+  flex-direction: column;
+  background-color: white;
+}
+
+.playlist-header-top {
+  width: 100%;
+  height: 60%;
+}
+
+.playlist-header-top span {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.playlist-header-bottom {
+  width: 100%;
+  height: 40%;
+}
+
+.playlist-header-bottom span {
+  width: 100%;
+  height: 100%;
+  font-size: 1.2em;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: grey;
+
+}
+
+.playlist-content {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 90%;
+  overflow-y: scroll;
+
+}
+
+.playlist-content-container {
+  width: 100%;
+}
+
+.playlist-item {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+.playlist-item:hover {
+  background-color: #eaeaea;
+  z-index: 9999;
+  cursor: pointer;
+
+}
+
+.playlist-item-icon {
+  width: 7%;
+  height: 100%;
+
+}
+
+.playlist-item-icon span.material-symbols-outlined {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.playlist-item-player {
+  width: 93%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.item-player-container {
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.item-player-left {
+  width: 30%;
+  height: 100%;
+
+}
+
+.item-player-left img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.item-player-right {
+  width: 70%;
+  height: 100%;
+}
+
+.item-player-title {
+  width: 100%;
+  height: 75%;
+  padding-left: 10px;
+
+}
+
+.item-player-title span {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+
+.item-player-channel {
+  width: 100%;
+  height: 25%;
+  padding-left: 10px;
+
+
+}
+
+.item-player-channel span {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+
+
